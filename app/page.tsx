@@ -33,11 +33,18 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* <img src="/hero-desktp.png" alt="Screenshots of the dashboard" /> */}
           <Image
-            width={1000}
-            height={760}
             src="/hero-desktop.png"
             alt="Screenshots of the dashboard"
             className="hidden md:block"
+            width={1000}
+            height={760}
+          />
+          <Image
+            src="/hero-mobile.png"
+            alt="Screenshots of the dashboard"
+            className="block md:block"
+            width={560}
+            height={620}
           />
         </div>
       </div>
